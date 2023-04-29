@@ -37,4 +37,3 @@ Statistics.propTypes = {
     title: PropTypes.string.isRequired,
     stats: PropTypes.arrayOf(PropTypes.shape),
 }
-
