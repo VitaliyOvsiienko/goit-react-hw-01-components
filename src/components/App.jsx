@@ -1,7 +1,9 @@
 import { Profile } from './Profile/Profile';
 import { Statistics } from './Statistics/Statistics';
+import { FriendList } from './FriendList/FriendList';
 import user from './Data/user.json';
 import data from './Data/data.json';
+import friends from './Data/friends.json'
 import { Container } from "./App.styled";
 
 export const App = () => {
