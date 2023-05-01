@@ -4,11 +4,10 @@
   margin-top: 40px;
   border: 1px solid #ccc;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-  text-align: center;
 }
 
 .TransactionHistory th {
-  background-color: green;
+  background-color: rgb(32, 154, 241);
   color: #fff;
   font-size: 16px;
   font-weight: bold;
@@ -23,7 +22,7 @@
 }
 
 .TransactionHistory td {
-  border-bottom: 1px solid #ddd;
+  border-bottom: 1px solid #fff;
   color: #000;
   font-size: 14px;
   padding: 10px;
@@ -31,10 +30,5 @@
 }
 
 .TransactionHistory .item:nth-child(even) {
-  background-color: #f9f9f9;
-}
-
-.TransactionHistory .item:hover {
-  background-color: #f5f5f5;
-  cursor: pointer;
+  background-color: #d6d1d1;
 }
