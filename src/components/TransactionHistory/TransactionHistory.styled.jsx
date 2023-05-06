@@ -18,7 +18,7 @@ export const StyledTableHeader = styled.th`
   text-transform: uppercase;
   border-right: 1px solid #fff;
 
-  &:last-child {
+  &:nth-of-type() {
     border-right: none;
   }
 `;
@@ -32,7 +32,7 @@ export const StyledTableData = styled.td`
 `;
 
 export const StyledTableRow = styled.tr`
-    &.item:nth-child(even) {
-    background-color: #d6d1d1;
+    &:nth-of-type(odd) {
+   background-color: #d6d1d1;
   }
 `;
