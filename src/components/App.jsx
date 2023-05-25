@@ -1,13 +1,13 @@
-import { Profile } from './Profile/Profile';
+import { Profile } from './Profile';
 import user from './Data/user.json';
 
-import { Statistics } from './Statistics/Statistics';
+import { Statistics } from './Statistics';
 import data from './Data/data.json';
 
-import { FriendList } from './FriendList/FriendList';
+import { FriendList } from './FriendList';
 import friends from './Data/friends.json';
 
-import { TransactionHistory } from './TransactionHistory/TransactionHistory';
+import { TransactionHistory } from './TransactionHistory';
 import transactions from './Data/transactions'
 
 import { Container } from "./App.styled";
